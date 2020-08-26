@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<script type="text/javascript">
+			function add()
+			{
+				//alert("hii");
+				var a=Number(document.getElementById("A").value);
+				var b=Number(document.getElementById("B").value);
+				var c=Number(document.getElementById("C").value);
+				var d=a+b+c;
+                document.getElementById("ans").value=d;
+			}
+		</script>
+	</head>
+	<body>
+		Enter the first number :
+		<input type="Number" id="A"/>
+		<br/>
+		<br/>
+		Enter the second number :
+		<input type="Number" id="B"/>
+		<br/>
+		<br/>
+		Enter the third number :
+		<input type="Number" id="C"/><br/><br/>
+		<input type="button" value="Add" onclick="add()"/>
+		<input type="Number"  id="ans"/>
+	</body>
+</html>
